@@ -70,7 +70,8 @@ except KeyboardInterrupt:
 except Exception as ex:
     print(ex)
     
-```'''
+```
+
 
 # Code to plot the results
 Check the Ipython Notebook to visulaize the results.
