@@ -1,5 +1,9 @@
 # What_to_track_on_Twitter_Streaming_API
-Code for Sumeet Kumar, Kathleen M. Carley, What to Track on the Twitter Streaming API? A Knapsack Bandits Approach to Dynamically Update the Search Terms,  ASONAM Conference, Vancouver, Canada, 2019 link
+Code for Sumeet Kumar, Kathleen M. Carley, What to Track on the Twitter Streaming API? A Knapsack Bandits Approach to Dynamically Update the Search Terms,  ASONAM Conference, Vancouver, Canada, 2019 [link](https://ieeexplore.ieee.org/document/9073274)
+
+# Before running the code
+Put your Twitter tokens at the following location - '../twitter_tokens.json' in format: {"consumer_key":"", "consumer_secret" : "", "access_token" : "", "access_token_secret" : ""}
+Create './result/' directory
 
 
 # Code to run to collect data
@@ -74,7 +78,7 @@ except Exception as ex:
 
 
 # Code to plot the results
-Check the Ipython Notebook to visulaize the results.
+After you have run tht code for a few days, please check the Ipython Notebook to visulaize the results.
 
 ## If you use this code, please cite the following paper:
 Sumeet Kumar, Kathleen M. Carley, What to Track on the Twitter Streaming API? A Knapsack Bandits Approach to Dynamically Update the Search Terms,  ASONAM Conference, Vancouver, Canada, 2019 link
